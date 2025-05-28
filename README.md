@@ -11,10 +11,6 @@ This project is designed to evaluate the performance of multimodal large languag
 ## Installation
 
 1. **Clone the Repository (if applicable):**
-   ```bash
-   git clone https://github.com/Anonymous285714/SpatialViz-Bench.git
-   cd SpatialViz-Bench
-   ```
 
 2. **Create and Activate a Virtual Environment and Install Dependencies:**
 
