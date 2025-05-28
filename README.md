@@ -10,7 +10,7 @@ This project is designed to evaluate the performance of multimodal large languag
 
 ## Installation
 
-1. **Clone the Repository (if applicable):**
+1. **Clone the Repository**
 
 2. **Create and Activate a Virtual Environment and Install Dependencies:**
 
