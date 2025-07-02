@@ -5,8 +5,8 @@ This project is designed to evaluate the performance of multimodal large languag
 ## Table of Contents
 
 * [Installation](#installation)
-* [Configuration](#configuration)
-* [Running Evaluations](#running-evaluations)
+* [Evaluation](#evaluation)
+* [Citation](#citation)
 
 ## Installation
 
@@ -22,7 +22,9 @@ This project is designed to evaluate the performance of multimodal large languag
    tqdm
    ```
 
-## Configuration for Closed-Source Models
+## Evaluation
+
+### Configuration for Closed-Source Models
 
 Before running the script, you may need to configure API keys. The script accepts these keys via command-line arguments.
 
@@ -34,7 +36,7 @@ Before running the script, you may need to configure API keys. The script accept
 
 Please ensure you have valid API keys for the models you intend to use.
 
-## Running Evaluations
+### Running Evaluations
 
 You can use the `evaluate.py` script to run evaluations for closed-source models.
 
@@ -79,3 +81,15 @@ The `get_answer` function in `evaluate.py` processes a results file (in JSONL fo
 4.  **Saving Results:**
     * **Counting File:** It saves the accuracy statistics (number of correct predictions, total number of predictions, and accuracy percentage) for overall, category, task, and level into a JSON file (e.g., `results_MODELNAME_counting.json`) in the specified `counting` subdirectory.
     * **Samples File:** It saves the lists of positive and negative samples into a separate JSON file (e.g., `results_MODELNAME_samples.json`) in the specified `samples` subdirectory.
+
+## Citation
+If you use SpatialViz-Bench in your research, please cite our paper:
+
+```bibtex
+@misc{wang2025spatialviz,
+  author = {Siting Wang and Luoyang Sun and Cheng Deng and Kun Shao and Minnan Pei and Zheng Tian and Haifeng Zhang and Jun Wang},
+  title = {SpatialViz-Bench: Automatically Generated Spatial Visualization Reasoning Tasks for MLLMs},
+  year = {2025},
+  url = {https://github.com/wangst0181/Spatial-Visualization-Benchmark-SpatialViz-Bench/blob/main/SpatialViz-Bench_Automatically_Generated_Spatial_Visualization_Reasoning_Tasks_for_MLLMs.pdf},
+  note = {Available on GitHub}
+}
