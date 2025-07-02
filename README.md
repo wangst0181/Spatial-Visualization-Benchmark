@@ -83,7 +83,7 @@ The `get_answer` function in `evaluate.py` processes a results file (in JSONL fo
     * **Samples File:** It saves the lists of positive and negative samples into a separate JSON file (e.g., `results_MODELNAME_samples.json`) in the specified `samples` subdirectory.
 
 ## Citation
-If you use SpatialViz-Bench in your research, please cite our paper:
+If you use SpatialViz-Bench in your research, please cite our [paper](https://github.com/wangst0181/Spatial-Visualization-Benchmark/blob/main/SpatialViz-Bench_Automatically_Generated_Spatial_Visualization_Reasoning_Tasks_for_MLLMs.pdf):
 
 ```bibtex
 @misc{wang2025spatialviz,
