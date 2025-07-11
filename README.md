@@ -1,4 +1,7 @@
-# SpatialViz-Bench
+<div align="center">
+<h1>SpatialViz-Bench </h1>
+</div>
+
 <div align="center">
 <a href='https://arxiv.org/abs/2507.07610'><img src='https://img.shields.io/badge/Paper-ArXiv-C71585'></a>
 <a href='https://huggingface.co/datasets/PLM-Team/Spatial-Visualization-Benchmark'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging Face-red'></a>
