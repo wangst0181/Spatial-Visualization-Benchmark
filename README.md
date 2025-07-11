@@ -1,4 +1,9 @@
 # SpatialViz-Bench
+<div align="center">
+<a href='https://arxiv.org/abs/2507.07610'><img src='https://img.shields.io/badge/Paper-ArXiv-C71585'></a>
+<a href='https://huggingface.co/datasets/PLM-Team/Spatial-Visualization-Benchmark'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging Face-red'></a>
+<a><img src="https://img.shields.io/github/stars/wangst0181/Spatial-Visualization-Benchmark"></a>
+</div>
 
 This project is designed to evaluate the performance of multimodal large language models on the SpatialViz-Bench benchmark.
 
@@ -86,10 +91,12 @@ The `get_answer` function in `evaluate.py` processes a results file (in JSONL fo
 If you use SpatialViz-Bench in your research, please cite our [paper](https://github.com/wangst0181/Spatial-Visualization-Benchmark/blob/main/SpatialViz-Bench_Automatically_Generated_Spatial_Visualization_Reasoning_Tasks_for_MLLMs.pdf):
 
 ```bibtex
-@misc{wang2025spatialviz,
-  author = {Siting Wang and Luoyang Sun and Cheng Deng and Kun Shao and Minnan Pei and Zheng Tian and Haifeng Zhang and Jun Wang},
-  title = {SpatialViz-Bench: Automatically Generated Spatial Visualization Reasoning Tasks for MLLMs},
-  year = {2025},
-  url = {https://github.com/wangst0181/Spatial-Visualization-Benchmark-SpatialViz-Bench/blob/main/SpatialViz-Bench_Automatically_Generated_Spatial_Visualization_Reasoning_Tasks_for_MLLMs.pdf},
-  note = {Available on GitHub}
+@misc{wang2025spatialvizbenchautomaticallygeneratedspatial,
+      title={SpatialViz-Bench: Automatically Generated Spatial Visualization Reasoning Tasks for MLLMs}, 
+      author={Siting Wang and Luoyang Sun and Cheng Deng and Kun Shao and Minnan Pei and Zheng Tian and Haifeng Zhang and Jun Wang},
+      year={2025},
+      eprint={2507.07610},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.07610}, 
 }
